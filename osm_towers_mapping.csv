@@ -1,0 +1,9 @@
+source_field,output_field,transform
+id,asset_id,
+tags.power,asset_type,
+tags.ref,asset_ref,
+tags.line_attachment,line_attachment,
+tags.material,material,
+tags.structure,structure,
+lat,latitude,to_float
+lon,longitude,to_float

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>OSM Utility Data Viewer</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    html, body { margin: 0; height: 100%; }
+    #map { height: 100%; }
+    #panel {
+      position: absolute; z-index: 1000; top: 10px; right: 10px;
+      background: rgba(255,255,255,0.93); padding: 8px 10px; border-radius: 6px;
+      font: 13px/1.5 system-ui, sans-serif; box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+      max-width: 240px;
+    }
+    #panel button {
+      margin-top: 6px; width: 100%; padding: 6px; cursor: pointer;
+      border: 1px solid #888; border-radius: 4px; background: #f4f4f4;
+    }
+    #panel button:disabled { opacity: 0.6; cursor: default; }
+  </style>
+</head>
+<body>
+  <div id="panel">
+    <div id="towerStatus">towers: —</div>
+    <div id="lineStatus">lines: —</div>
+    <button id="loadData">⚡ Reload this view from OSM</button>
+  </div>
+  <div id="map"></div>
+  <script>
+    const MIN_ZOOM_TO_QUERY = 10;
+    const INGEST_TIMEOUT_MS = 45000;
+
+    const map = L.map('map').setView([51.00, 6.85], 13);
+    L.tileLayer(
+      'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
+      { attribution: 'Tiles &copy; Esri', maxZoom: 19 }
+    ).addTo(map);
+
+    const lineLayer = L.geoJSON(null, {
+      style: { color: '#1f6feb', weight: 2.5, opacity: 0.85 },
+      onEachFeature: (f, l) => {
+        const p = f.properties;
+        const kvNum = parseInt(p.voltage);
+        const kv = !isNaN(kvNum) ? ` — ${Math.round(kvNum / 1000)} kV` : '';
+        l.bindTooltip(`${p.name || 'power line'}${kv}`);
+      }
+    }).addTo(map);
+
+    const towerLayer = L.geoJSON(null, {
+      pointToLayer: (f, ll) => L.circleMarker(ll, {
+        radius: 5, color: '#c0392b', fillColor: '#e74c3c', fillOpacity: 0.85, weight: 1
+      }),
+      onEachFeature: (f, l) => l.bindTooltip(`${f.properties.asset_type} ${f.properties.asset_ref || ''}`.trim())
+    }).addTo(map);
+
+    const towerStatus = document.getElementById('towerStatus');
+    const lineStatus = document.getElementById('lineStatus');
+    const loadBtn = document.getElementById('loadData');
+    const attempted = new Set();   // view keys we've already auto-ingested this session
+    let moveTimer = null;
+
+    function bboxStr() {
+      const b = map.getBounds();
+      return [b.getWest(), b.getSouth(), b.getEast(), b.getNorth()].join(',');
+    }
+    function viewKey() {
+      const c = map.getCenter();
+      return `${c.lat.toFixed(2)},${c.lng.toFixed(2)},${Math.round(map.getZoom())}`;
+    }
+
+    // --- read a layer from the PostGIS cache; returns the feature count ---
+    async function readTowers() {
+      if (map.getZoom() < MIN_ZOOM_TO_QUERY) { towerLayer.clearLayers(); towerStatus.textContent = 'towers: zoom in'; return 0; }
+      try {
+        const data = await (await fetch(`/api/towers?bbox=${bboxStr()}`)).json();
+        towerLayer.clearLayers(); towerLayer.addData(data);
+        towerStatus.textContent = `towers: ${data.features.length} in view`;
+        return data.features.length;
+      } catch (e) { towerStatus.textContent = 'towers: error'; return 0; }
+    }
+    async function readLines() {
+      if (map.getZoom() < MIN_ZOOM_TO_QUERY) { lineLayer.clearLayers(); lineStatus.textContent = 'lines: zoom in'; return 0; }
+      try {
+        const data = await (await fetch(`/api/lines?bbox=${bboxStr()}`)).json();
+        lineLayer.clearLayers(); lineLayer.addData(data);
+        lineStatus.textContent = `lines: ${data.features.length} in view`;
+        return data.features.length;
+      } catch (e) { lineStatus.textContent = 'lines: error'; return 0; }
+    }
+
+    // --- ingest one layer from OSM for the current view, with a hard timeout ---
+    async function ingest(kind) {
+      const statusEl = kind === 'towers' ? towerStatus : lineStatus;
+      statusEl.textContent = `${kind}: loading from OSM…`;
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), INGEST_TIMEOUT_MS);
+      try {
+        const res = await (await fetch(`/api/${kind}/ingest?bbox=${bboxStr()}`, { signal: ctrl.signal })).json();
+        if (res.error) { statusEl.textContent = `${kind}: ${res.error} — ⚡ to retry`; return; }
+      } catch (e) {
+        statusEl.textContent = `${kind}: ${e.name === 'AbortError' ? 'timed out' : 'load failed'} — ⚡ to retry`;
+        return;
+      } finally { clearTimeout(timer); }
+      if (kind === 'towers') await readTowers(); else await readLines();
+    }
+
+    // --- on pan/zoom: read the cache, then auto-ingest whatever's empty (once per view) ---
+    async function onMoveEnd() {
+      const [towers, lines] = await Promise.all([readTowers(), readLines()]);
+      if (map.getZoom() < MIN_ZOOM_TO_QUERY) return;
+      const key = viewKey();
+      if (attempted.has(key)) return;
+      attempted.add(key);
+      if (towers === 0) ingest('towers');   // fire-and-forget; each self-updates
+      if (lines === 0) ingest('lines');
+    }
+
+    map.on('moveend', () => { clearTimeout(moveTimer); moveTimer = setTimeout(onMoveEnd, 700); });
+
+    // manual button: force a re-ingest of both layers for this view
+    loadBtn.addEventListener('click', async () => {
+      if (map.getZoom() < MIN_ZOOM_TO_QUERY) { towerStatus.textContent = 'towers: zoom in first'; return; }
+      loadBtn.disabled = true;
+      attempted.add(viewKey());
+      await Promise.all([ingest('towers'), ingest('lines')]);
+      loadBtn.disabled = false;
+    });
+
+    onMoveEnd();  // initial load
+  </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+source_field,output_field,transform
+id,line_id,
+tags.name,name,
+tags.voltage,voltage,
+tags.operator,operator,
+tags.ref,line_ref,
+tags.cables,cables,
+tags.circuits,circuits,
+tags.frequency,frequency,

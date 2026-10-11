@@ -1,0 +1,6 @@
+source_field,output_field,transform
+mtr_num,meter_id,
+inst_dt,install_date,
+svc_type,service_type,upper
+lat,latitude,to_float
+lon,longitude,to_float

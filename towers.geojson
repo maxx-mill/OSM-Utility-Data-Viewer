@@ -1,0 +1,1499 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8712752,
+          51.0027881
+        ]
+      },
+      "properties": {
+        "asset_id": 244055610,
+        "asset_type": "tower",
+        "asset_ref": "2483 M 19",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8663441,
+          51.0010392
+        ]
+      },
+      "properties": {
+        "asset_id": 244311454,
+        "asset_type": "tower",
+        "asset_ref": "2483 M 18",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8666132,
+          51.0008475
+        ]
+      },
+      "properties": {
+        "asset_id": 244311497,
+        "asset_type": "tower",
+        "asset_ref": "1290 M 8",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8864531,
+          51.0078555
+        ]
+      },
+      "properties": {
+        "asset_id": 244311557,
+        "asset_type": "tower",
+        "asset_ref": "1290 M 13",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8830065,
+          51.0066397
+        ]
+      },
+      "properties": {
+        "asset_id": 244311594,
+        "asset_type": "tower",
+        "asset_ref": "1290 M 12",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8767577,
+          51.0044311
+        ]
+      },
+      "properties": {
+        "asset_id": 244311641,
+        "asset_type": "tower",
+        "asset_ref": "1290 M 10",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8714977,
+          51.0025749
+        ]
+      },
+      "properties": {
+        "asset_id": 244312266,
+        "asset_type": "tower",
+        "asset_ref": "1290 M 9",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8765521,
+          51.0046578
+        ]
+      },
+      "properties": {
+        "asset_id": 244312394,
+        "asset_type": "tower",
+        "asset_ref": "2483 M 20",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8898078,
+          51.0090418
+        ]
+      },
+      "properties": {
+        "asset_id": 244312730,
+        "asset_type": "tower",
+        "asset_ref": "1290 M 14",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8627285,
+          51.0256324
+        ]
+      },
+      "properties": {
+        "asset_id": 244314349,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 36",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8667098,
+          51.0264489
+        ]
+      },
+      "properties": {
+        "asset_id": 244314350,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 37",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8712378,
+          51.0273868
+        ]
+      },
+      "properties": {
+        "asset_id": 244314351,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 38",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8753127,
+          51.028206
+        ]
+      },
+      "properties": {
+        "asset_id": 244314352,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 39",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8800511,
+          51.0291522
+        ]
+      },
+      "properties": {
+        "asset_id": 244314353,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 40",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8846868,
+          51.0300815
+        ]
+      },
+      "properties": {
+        "asset_id": 244314354,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 41",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8895932,
+          51.0310681
+        ]
+      },
+      "properties": {
+        "asset_id": 244314355,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 42",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8968087,
+          51.0325154
+        ]
+      },
+      "properties": {
+        "asset_id": 244314356,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 44",
+        "line_attachment": "anchor",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8998879,
+          51.0139881
+        ]
+      },
+      "properties": {
+        "asset_id": 244314857,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 45",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8917766,
+          51.0100969
+        ]
+      },
+      "properties": {
+        "asset_id": 244314901,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 43",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8814901,
+          51.0064619
+        ]
+      },
+      "properties": {
+        "asset_id": 244314903,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 41",
+        "line_attachment": "anchor",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8091724,
+          51.0142779
+        ]
+      },
+      "properties": {
+        "asset_id": 249747326,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 24",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8181727,
+          51.0162448
+        ]
+      },
+      "properties": {
+        "asset_id": 249747333,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 26",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8137318,
+          51.0152827
+        ]
+      },
+      "properties": {
+        "asset_id": 249747347,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 25",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8084539,
+          51.0145121
+        ]
+      },
+      "properties": {
+        "asset_id": 249747369,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 23",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8134816,
+          51.0156213
+        ]
+      },
+      "properties": {
+        "asset_id": 249747370,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 24",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8179612,
+          51.01662
+        ]
+      },
+      "properties": {
+        "asset_id": 249747386,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 25",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.849004,
+          51.0231914
+        ]
+      },
+      "properties": {
+        "asset_id": 249747388,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 32",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8502096,
+          51.054116
+        ]
+      },
+      "properties": {
+        "asset_id": 249756473,
+        "asset_type": "tower",
+        "asset_ref": "0012 M 49",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8480261,
+          51.0583712
+        ]
+      },
+      "properties": {
+        "asset_id": 249756474,
+        "asset_type": "tower",
+        "asset_ref": "0012 M 51",
+        "line_attachment": "anchor",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.849117,
+          51.0562474
+        ]
+      },
+      "properties": {
+        "asset_id": 250525573,
+        "asset_type": "tower",
+        "asset_ref": "0012 M 50",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8466894,
+          51.0515738
+        ]
+      },
+      "properties": {
+        "asset_id": 264660420,
+        "asset_type": "tower",
+        "asset_ref": "0012 M 48",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8430579,
+          51.0489514
+        ]
+      },
+      "properties": {
+        "asset_id": 264873115,
+        "asset_type": "tower",
+        "asset_ref": "0012 M 47",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8398949,
+          51.0466719
+        ]
+      },
+      "properties": {
+        "asset_id": 267097995,
+        "asset_type": "tower",
+        "asset_ref": "0012 M 46",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8369291,
+          51.0445271
+        ]
+      },
+      "properties": {
+        "asset_id": 267494629,
+        "asset_type": "tower",
+        "asset_ref": "0012 M 45",
+        "line_attachment": "anchor",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8791618,
+          51.0052822
+        ]
+      },
+      "properties": {
+        "asset_id": 268339162,
+        "asset_type": "tower",
+        "asset_ref": "1290 M 11",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8789567,
+          51.0054679
+        ]
+      },
+      "properties": {
+        "asset_id": 268339178,
+        "asset_type": "tower",
+        "asset_ref": "2483 M 21",
+        "line_attachment": "anchor",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8865734,
+          51.0082595
+        ]
+      },
+      "properties": {
+        "asset_id": 268339299,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 42",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8812399,
+          51.0070061
+        ]
+      },
+      "properties": {
+        "asset_id": 268341274,
+        "asset_type": "tower",
+        "asset_ref": "",
+        "line_attachment": "anchor",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8751725,
+          51.0104929
+        ]
+      },
+      "properties": {
+        "asset_id": 268341275,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 39",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8754728,
+          51.0106793
+        ]
+      },
+      "properties": {
+        "asset_id": 268341276,
+        "asset_type": "tower",
+        "asset_ref": "",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8720171,
+          51.0128856
+        ]
+      },
+      "properties": {
+        "asset_id": 268501091,
+        "asset_type": "tower",
+        "asset_ref": "",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8717144,
+          51.0126934
+        ]
+      },
+      "properties": {
+        "asset_id": 268501092,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 38",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8681046,
+          51.0149885
+        ]
+      },
+      "properties": {
+        "asset_id": 268501093,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 37",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8683064,
+          51.0152415
+        ]
+      },
+      "properties": {
+        "asset_id": 268501094,
+        "asset_type": "tower",
+        "asset_ref": "",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8644646,
+          51.0173004
+        ]
+      },
+      "properties": {
+        "asset_id": 268501095,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 36",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8647769,
+          51.017489
+        ]
+      },
+      "properties": {
+        "asset_id": 268501096,
+        "asset_type": "tower",
+        "asset_ref": "",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.861224,
+          51.019369
+        ]
+      },
+      "properties": {
+        "asset_id": 268501097,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 35",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.861414,
+          51.0196286
+        ]
+      },
+      "properties": {
+        "asset_id": 268501098,
+        "asset_type": "tower",
+        "asset_ref": "0012 M 1036",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8541511,
+          51.0238621
+        ]
+      },
+      "properties": {
+        "asset_id": 269771922,
+        "asset_type": "tower",
+        "asset_ref": "",
+        "line_attachment": "anchor",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8932125,
+          51.0317912
+        ]
+      },
+      "properties": {
+        "asset_id": 269771923,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 43",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8785773,
+          51.0083206
+        ]
+      },
+      "properties": {
+        "asset_id": 269786856,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 40",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8788529,
+          51.008527
+        ]
+      },
+      "properties": {
+        "asset_id": 269786860,
+        "asset_type": "tower",
+        "asset_ref": "",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8506091,
+          51.0265035
+        ]
+      },
+      "properties": {
+        "asset_id": 269787383,
+        "asset_type": "tower",
+        "asset_ref": "0012 M 39",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8538977,
+          51.0244115
+        ]
+      },
+      "properties": {
+        "asset_id": 269787384,
+        "asset_type": "tower",
+        "asset_ref": "0012 M 38",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8577994,
+          51.0219289
+        ]
+      },
+      "properties": {
+        "asset_id": 269787489,
+        "asset_type": "tower",
+        "asset_ref": "0012 M 37",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8574946,
+          51.0217404
+        ]
+      },
+      "properties": {
+        "asset_id": 269787499,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 34",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.858055,
+          51.0246713
+        ]
+      },
+      "properties": {
+        "asset_id": 269788376,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 35",
+        "line_attachment": "anchor",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8536983,
+          51.0241549
+        ]
+      },
+      "properties": {
+        "asset_id": 269788377,
+        "asset_type": "tower",
+        "asset_ref": "",
+        "line_attachment": "anchor",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8464977,
+          51.0292559
+        ]
+      },
+      "properties": {
+        "asset_id": 269788810,
+        "asset_type": "tower",
+        "asset_ref": "0012 M 40",
+        "line_attachment": "anchor",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8403806,
+          51.0360546
+        ]
+      },
+      "properties": {
+        "asset_id": 269788811,
+        "asset_type": "tower",
+        "asset_ref": "0012 M 42",
+        "line_attachment": "anchor",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8381183,
+          51.0416089
+        ]
+      },
+      "properties": {
+        "asset_id": 269788812,
+        "asset_type": "tower",
+        "asset_ref": "0012 M 44",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8393386,
+          51.0386146
+        ]
+      },
+      "properties": {
+        "asset_id": 269789023,
+        "asset_type": "tower",
+        "asset_ref": "0012 M 43",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8431007,
+          51.0330297
+        ]
+      },
+      "properties": {
+        "asset_id": 269789024,
+        "asset_type": "tower",
+        "asset_ref": "0012 M 41",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8497515,
+          51.0229562
+        ]
+      },
+      "properties": {
+        "asset_id": 269885351,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 33",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8449838,
+          51.0223584
+        ]
+      },
+      "properties": {
+        "asset_id": 269885354,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 31",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8456453,
+          51.022109
+        ]
+      },
+      "properties": {
+        "asset_id": 269885356,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 32",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8404945,
+          51.0214321
+        ]
+      },
+      "properties": {
+        "asset_id": 269885358,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 30",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8411325,
+          51.0211762
+        ]
+      },
+      "properties": {
+        "asset_id": 269885361,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 31",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8362071,
+          51.0205503
+        ]
+      },
+      "properties": {
+        "asset_id": 269885363,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 29",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8363871,
+          51.0202004
+        ]
+      },
+      "properties": {
+        "asset_id": 269885366,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 30",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.831476,
+          51.0195644
+        ]
+      },
+      "properties": {
+        "asset_id": 269885368,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 28",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8316477,
+          51.0192122
+        ]
+      },
+      "properties": {
+        "asset_id": 269885370,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 29",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8270347,
+          51.0186057
+        ]
+      },
+      "properties": {
+        "asset_id": 269885373,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 27",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8272568,
+          51.0182559
+        ]
+      },
+      "properties": {
+        "asset_id": 269885375,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 28",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8226298,
+          51.0176189
+        ]
+      },
+      "properties": {
+        "asset_id": 269885377,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 26",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8228608,
+          51.017286
+        ]
+      },
+      "properties": {
+        "asset_id": 269885380,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 27",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8043486,
+          51.0136172
+        ]
+      },
+      "properties": {
+        "asset_id": 269885382,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 22",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.804613,
+          51.0132774
+        ]
+      },
+      "properties": {
+        "asset_id": 269885385,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 23",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8001137,
+          51.0122911
+        ]
+      },
+      "properties": {
+        "asset_id": 269885389,
+        "asset_type": "tower",
+        "asset_ref": "4515 M 22",
+        "line_attachment": "",
+        "material": "steel",
+        "structure": "lattice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8986999,
+          51.0130286
+        ]
+      },
+      "properties": {
+        "asset_id": 767185815,
+        "asset_type": "tower",
+        "asset_ref": "1290 M 17",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8920351,
+          51.0098305
+        ]
+      },
+      "properties": {
+        "asset_id": 1311286271,
+        "asset_type": "tower",
+        "asset_ref": "1290 M 15",
+        "line_attachment": "",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8956674,
+          51.0119646
+        ]
+      },
+      "properties": {
+        "asset_id": 1311286329,
+        "asset_type": "tower",
+        "asset_ref": "4560 M 44",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8951817,
+          51.0113397
+        ]
+      },
+      "properties": {
+        "asset_id": 1311286348,
+        "asset_type": "tower",
+        "asset_ref": "1290 M 16",
+        "line_attachment": "suspension",
+        "material": "",
+        "structure": ""
+      }
+    }
+  ]
+}

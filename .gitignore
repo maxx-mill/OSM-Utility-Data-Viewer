@@ -1,0 +1,15 @@
+# secrets -- the whole point of .env.example existing
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# generated map artifact (NOT templates/index.html, which is source)
+towers_map.html
+
+# OS cruft
+.DS_Store
+Thumbs.db
